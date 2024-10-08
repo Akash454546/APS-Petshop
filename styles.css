@@ -1,0 +1,220 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    color: white;
+    padding:10px;
+    text-align: center;
+    font-size:30px;
+    background-color:palevioletred;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.welcome{
+    font-size:50px;
+    color:#3B4A99
+}
+.available{
+    text-align: center;
+    font-size: 40px;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+h1, h2 {
+    color: #333;
+}
+
+.intro {
+    background-color:palevioletred;
+    padding:10px;
+    text-align: center;
+    font-size:30px;
+}
+.perfect{
+    color: rgba(17, 13, 13, 0.967);
+}
+
+section.pets-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.pet-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 180px;
+}
+
+.pet-card img {
+    width: 100%;
+    height: auto;
+}
+.pets{
+      font-size:30px;
+      font-style: oblique;
+}
+.cat{
+    background-color:rgba(47, 4, 18, 0.829);
+}
+.dog{
+    background-color:rgb(53, 53, 137);
+}
+.parrot{
+    background-color: rgb(18, 164, 18);
+}
+.rabbit{
+    background-color:orangered;
+}
+.hamster{
+    background-color: purple;
+}
+footer {
+    background-color: #3B4A99;
+    color: white;
+    font-size:20px;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #5C6BC0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #3B4A99;
+}
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section.pet-food {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.food-item {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.food-item img {
+    width: 100%;
+    height: auto;
+}
+
+section.shop-info {
+    background-color: #eef;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size:25px;
+}
+
+footer {
+    background-color: #5C6BC0;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.address{
+    font-size:20px;
+}
+.phone{
+    font-size:20px;
+}
+.email{
+    font-size:20px;
+}
+.mail{
+    font-size: 20px;
+    background-color: #3B4A99;
+}
+.get{
+    font-size:30px;
+    background-color:brown;
+}
+.contact{
+    color:rgb(14, 8, 8);
+}
+.getin{
+    font-size: 30px;
+}
+.would{
+    font-size:20px;
+}
+.aboutc{
+    font-size:30px;
+    background-color:mediumaquamarine;
+}
+.our{
+    font-size: 40px;
+}
+.who{
+    font-size:40px;
+}
+.getin{
+    font-size:40px;
+}
+.would{
+    font-size:30px;
+}
+.name{
+    font-size:30px;
+}
